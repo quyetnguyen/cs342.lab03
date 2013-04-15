@@ -128,7 +128,7 @@ public class GeneBankParser
 		while (nextSequence.length() < sequenceLength)
 		{
 		
-			if((lineIndex + sequenceLength) > currLine.length()){ b 
+			if((lineIndex + sequenceLength) > currLine.length()){
 				skipJunk();
 				
 				if(currLine.equals("EOF")) return "EOF";
